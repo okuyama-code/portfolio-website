@@ -3,18 +3,18 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-// import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/hooks";
 // import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
-//   const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("Contact");
 
   return (
     <motion.section
       id="contact"
-    //   ref={ref}
+      ref={ref}
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
@@ -29,14 +29,13 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>お問い合わせ</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+         ooyy0121@gmail.com
         </a>{" "}
-        or through this form.
+        まで直接ご連絡いただくか、このフォームからご連絡ください。
       </p>
 
       <form
@@ -58,12 +57,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="あなたのメールアドレス"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="お問い合わせ内容を入力してください"
           required
           maxLength={5000}
         />
