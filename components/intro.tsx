@@ -66,9 +66,10 @@ export default function Intro() {
         <span className="font-bold">Next.js, Go, Typescript, Ruby</span>
         などを学んでいる駆け出しエンジニアです。
         2023年3月より学習をスタートし毎日継続中です。
-        朝の3,4時に起きて学習するなど脳のゴールデンタイムを有効活用しながら<span className="font-bold" >週25時間の学習時間</span>を確保しています。
-
-
+        <span className="font-bold" >週25時間の学習時間</span>を確保しています。<br></br>
+        <span className='italic'>このポートフォリオサイトは海外Youtubeを写経して2023年8月初旬に作成しVerselにデプロイしました。<br></br>
+        ソースコードはこちら→ https://github.com/okuyama-code/portfolio-website
+        </span>
       </motion.h1>
 
       <motion.div

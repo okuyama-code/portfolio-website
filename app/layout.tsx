@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Okuyama | Personal Portfolio",
+  description: "Okuyamaは2023年3月よりプログラミングを学習している駆け出しエンジニアです",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="ja" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >

@@ -1,6 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+// import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { BiLogoGoLang } from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
 import GoTodoImg from "@/public/goTodo.png";
 import discordImg from "@/public/discord.png";
@@ -33,33 +34,6 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const projectsData = [
   {
     title: "Go入門",
@@ -75,14 +49,43 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Redux", "Tailwind", "Firebase"],
     imageUrl: discordImg,
   },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
+] as const;
+
+
+export const experiencesData = [
   {
-    title: "Word Analytics",
+    title: "UdemyやYoutubeのチュートリアル動画で独学",
+    location: "千葉県",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "主にShin CodeさんのyoutubeやUdemyを教材としてReact, Next.js, Typescript, Node.js, Firebaseを学習しました。DiscordクローンやSNSクローンをハンズオンで学習しました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023/3 - 2023/5",
+  },
+  {
+    title: "海外のYoutubeを教材として独学",
+    location: "千葉県",
+    description:
+      "Next.js13, Typescript, FirebaseなどでtwiiterクローンやLinkedinクローンを写経しました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023/5 - 2023/7",
+  },
+  {
+    title: "モダンな自社開発企業への転職を意識しGolang, Ruby on Railsを基礎から独学",
+    location: "千葉県",
+    description:
+      "UdemyのGolangチュートリアルやprogateのRuby on Rails、書籍ではLinux標準教科書、プロになるためのWeb技術入門、GitHub実践入門、キタミ式イラストIT塾基本情報技術者、スッキリわかるSQL入門などを学習しています。",
+    icon: React.createElement(BiLogoGoLang),
+    date: "2023/7 - 現在",
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
