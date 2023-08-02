@@ -87,7 +87,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+         お問い合わせはこちら{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -96,7 +96,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          PDFの職務経歴書をダウンロードはこちら{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
