@@ -1,2 +1,2 @@
 ## url
-https://portfolio-website-blue-six.vercel.app/
+https://okucode-portfolio-site.vercel.app/
