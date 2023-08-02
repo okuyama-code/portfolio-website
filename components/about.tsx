@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import SectionHeading from "./section-heading";
+import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 // import { useSectionInView } from "@/lib/hooks";
 
@@ -11,14 +11,13 @@ export default function About() {
   return (
     <motion.section
     //   ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 "
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
-      {/* <SectionHeading>About me</SectionHeading> */}
-      <h2 className="text-3xl font-medium capitalize mb-8 mt-10">私について</h2>
+      <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         私は現在千葉県のゴルフ場に勤務しながら独学でプログラミングを学習しています。Udemyや書籍や海外のYouTubeで学習を毎日コツコツ継続しています。私がプログラミングで一番好きな部分は、問題解決の側面です。エラーや実装したいレイアウトや機能の問題の解決策を見つけたときの感覚が大好きです。 私の学習している主な言語やフレームワークやライブラリは React、Next.js、Node.js、TypeScript、Go、 ruby on railsです。DBはMySQL、 PostgreSQL、 MongoDBを使用して学習した経験があります。私は常に新しい技術を学ぶことに努めています。 私は現在、モダンな自社開発企業様のソフトウェア開発者としてのフルタイムの職を探しています。
         自主的に勤務時間外を活用して企業様の利益につながるように学習を続けていくつもりでいますのでチャンスをいただけますよう、よろしくお願いいたします。
