@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import GoTodoImg from "@/public/goTodo.png";
+import discordImg from "@/public/discord.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -16,8 +16,8 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Learning",
+    hash: "#learning",
   },
   {
     name: "Skills",
@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Go入門",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Udemy講座のGo入門】Golang基礎入門 + 各種ライブラリ + 簡単なTodoWebアプリケーション開発(Go言語)を学習しました。https://www.udemy.com/course/golang-webgosql/",
+    tags: ["jQuery", "Go", "sqlite3"],
+    imageUrl: GoTodoImg,
   },
   {
-    title: "rmtDev",
+    title: "Discocdクローン",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Udemy講座の【Discordクローン開発】React/Redux/Typescript/Firebaseで作るアプリ開発実践講座を学習しました。https://www.udemy.com/course/discord-clone-udemy/ ソースコード https://github.com/okuyama-code/discord-clone",
+    tags: ["React", "TypeScript", "Redux", "Tailwind", "Firebase"],
+    imageUrl: discordImg,
   },
   {
     title: "Word Analytics",
