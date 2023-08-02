@@ -32,10 +32,11 @@ export default function Contact() {
       <SectionHeading>お問い合わせ</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        <a className="underline" href="mailto:example@gmail.com">
+        本番環境でエラーが出てしまうため直接
+        <a className="underline" href="mailto:ooyy0121@gmail.com">
          ooyy0121@gmail.com
-        </a>{" "}
-        まで直接ご連絡いただくか、このフォームからご連絡ください。
+        </a>
+        まで直接ご連絡ください。
       </p>
 
       <form
