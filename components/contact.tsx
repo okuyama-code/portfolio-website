@@ -36,7 +36,12 @@ export default function Contact() {
         <a className="underline" href="mailto:ooyy0121@gmail.com">
          ooyy0121@gmail.com
         </a>
-        まで直接ご連絡ください。お問い合わせフォームはレイアウトの学習のために残しています。
+        まで直接ご連絡いただくか、
+        <a className="underline" href="https://twitter.com/output0121" target="_blank">
+        twitter
+        </a>
+        までご連絡ください。
+        お問い合わせフォームはレイアウトの学習のために残しています。
       </p>
 
       <form
