@@ -32,7 +32,7 @@ export default function Contact() {
       <SectionHeading>お問い合わせ</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        本番環境でエラーが出てしまうため直接
+        本番環境でエラーが出てしまうため
         <a className="underline" href="mailto:ooyy0121@gmail.com">
          ooyy0121@gmail.com
         </a>
