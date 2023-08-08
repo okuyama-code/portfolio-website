@@ -80,9 +80,17 @@ export const experiencesData = [
     title: "モダンな自社開発企業への転職を意識しGolang, Ruby on Railsを基礎から独学",
     location: "千葉県",
     description:
-      "UdemyのGolangチュートリアルやprogateのRuby on Rails、書籍ではLinux標準教科書、プロになるためのWeb技術入門、GitHub実践入門、キタミ式イラストIT塾基本情報技術者、スッキリわかるSQL入門などを学習しています。",
+      "UdemyのGolangチュートリアルやLinux標準教科書、プロになるためのWeb技術入門、GitHub実践入門、キタミ式イラストIT塾基本情報技術者、スッキリわかるSQL入門などを学習しています。",
     icon: React.createElement(BiLogoGoLang),
-    date: "2023/7 - 現在",
+    date: "2023/7 - 2023/8/8",
+  },
+  {
+    title: "Happiness Chainに入学",
+    location: "千葉県",
+    description:
+      "しっかりモダンな自社開発企業への転職に着地するためにハイレベルな環境に身を置くことにしました。趣味のゴルフもツアープロに教わったロードマップに従うことで上達することができたので、プログラミングもプロのロードマップに100%従って学習しています。身近なゴルフの例でも9割の人が我流 or 間違った指導者の下で上達のチャンスを逃している人をたくさん見てきたのでしっかり事前に調査してHappiness Chainというスクールに入会させていただくことにしました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023/8/9 - 現在",
   },
 ] as const;
 
