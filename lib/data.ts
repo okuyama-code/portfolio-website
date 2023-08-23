@@ -45,7 +45,8 @@ export const projectsData = [
   {
     title: "Discocdクローン",
     description:
-      "Udemy講座の【Discordクローン開発】React/Redux/Typescript/Firebaseで作るアプリ開発実践講座を学習しました。https://www.udemy.com/course/discord-clone-udemy/ ソースコード https://github.com/okuyama-code/discord-clone",
+      `Udemy講座の【Discordクローン開発】React/Redux/Typescript/Firebaseで作るアプリ開発実践講座を学習しました。https://www.udemy.com/course/discord-clone-udemy/
+      ソースコード https://github.com/okuyama-code/discord-clone`,
     tags: ["React", "TypeScript", "Redux", "Tailwind", "Firebase"],
     imageUrl: discordImg,
   },
@@ -85,7 +86,7 @@ export const experiencesData = [
     date: "2023/7 - 2023/8/8",
   },
   {
-    title: "Happiness Chainに入学",
+    title: "Happiness Chainで学習",
     location: "千葉県",
     description:
       "しっかりモダンな自社開発企業への転職に着地するためにハイレベルな環境に身を置くことにしました。趣味のゴルフもツアープロに教わったロードマップに従うことで上達することができたので、プログラミングもプロのロードマップに100%従って学習しています。身近なゴルフの例でも9割の人が我流 or 間違った指導者の下で上達のチャンスを逃している人をたくさん見てきたのでしっかり事前に調査してHappiness Chainというスクールに入会させていただくことにしました。",

@@ -63,13 +63,16 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">こんにちは。奥山と申します。</span>
-        <span className="font-bold">Next.js, Go, Typescript, Ruby</span>
+        <span className="font-bold">Next.js, Go, Typescript, Rails</span>
         などを学んでいる駆け出しエンジニアです。
         2023年3月より学習をスタートし毎日継続中です。
         <span className="font-bold" >週25時間の学習時間</span>を確保しています。<br></br>
-        <span className='italic'>このポートフォリオサイトは海外Youtubeを写経して2023年8月初旬に作成しVerselにデプロイしました。<br></br>
-        ソースコードはこちら→ https://github.com/okuyama-code/portfolio-website
+        <span className='italic'>このポートフォリオサイトは海外Youtubeをハンズオンで学習し、Verselにデプロイしました。<br></br>
         </span>
+        <a className='text-4xl font-bold  underline transition-colors hover:text-blue-400
+        ' href="https://github.com/okuyama-code/portfolio-website" target='_blank'>本サイトのソースコード</a><br></br>
+        <a className='text-4xl font-bold underline  transition-colors hover:text-blue-400
+        ' href="https://github.com/okuyama-code/daily_report/tree/main/2023/08" target='_blank'>Happiness Chainでの学習記録</a>
       </motion.h1>
 
       <motion.div
