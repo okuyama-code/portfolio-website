@@ -70,7 +70,7 @@ export default function Intro() {
         <span className='italic'>このポートフォリオサイトは海外Youtubeをハンズオンで学習し、Verselにデプロイしました。<br></br>
         </span>
         <a className='text-4xl font-bold  underline transition-colors hover:text-blue-400
-        ' href="https://github.com/okuyama-code/portfolio-website" target='_blank'>本サイトのソースコード</a><br></br>
+        ' href="https://github.com/okuyama-code/portfolio-website" target='_blank'>本サイトのコード</a><br></br>
         <a className='text-4xl font-bold underline  transition-colors hover:text-blue-400
         ' href="https://github.com/okuyama-code/daily_report/tree/main/2023/08" target='_blank'>Happiness Chainでの学習記録</a>
       </motion.h1>
