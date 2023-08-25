@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/person1.png"
+              src="/next1.png"
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <p className="font-bold">こんにちは。okuyamaと申します</p>
+        <p className="font-bold">こんにちは!! OKUYAMAと申します🫡</p>
         <span className="font-bold text-blue-500">Next.js, Go, Typescript, Rails</span>
         などを学んでいる駆け出しエンジニアです。
         2023年3月より学習をスタートし毎日継続しています。
@@ -85,7 +85,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-white borderBlack  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/20 dark:text-white/60"
+          className="group bg-white/50 borderBlack  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/20 "
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -96,16 +96,16 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20"
+          className="group bg-white/50 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20"
           href="/CV.pdf"
           download
         >
-          PDFの職務経歴書をダウンロードはこちら{" "}
+          職務経歴書をダウンロード
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
+          className="bg-white/50 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
           href="https://twitter.com/output0121"
           target="_blank"
         >
@@ -113,7 +113,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
+          className="bg-white/50 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
           href="https://github.com/okuyama-code"
           target="_blank"
         >
@@ -121,7 +121,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
+          className="bg-white/50 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
           href="https://qiita.com/ooyy0121"
           target="_blank"
         >
